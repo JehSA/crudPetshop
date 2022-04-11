@@ -15,12 +15,17 @@
       "responses": [
         {
           "uuid": "dc289911-9122-4c89-bb80-6d109f4f80fe",
-          "body": "",
+          "body": "{\r\n   {\r\n      \"uuid\":\"33e396c4-9afd-42d6-a107-e4bb16b65c99\",\r\n      \"lastMigration\":19,\r\n      \"name\":\"7181.mockoon.1.4.0\",\r\n      \"endpointPrefix\":\"\",\r\n      \"latency\":0,\r\n      \"port\":3001,\r\n      \"hostname\":\"0.0.0.0\",\r\n      \"routes\":[\r\n         {\r\n            \"uuid\":\"091200ec-e446-43cc-a6e9-e016f30844ed\",\r\n            \"documentation\":\"\",\r\n            \"method\":\"get\",\r\n            \"endpoint\":\"\",\r\n            \"responses\":[\r\n               {\r\n                  \"uuid\":\"0606ef8a-da71-4d26-89bd-14b606e9f255\",\r\n                  \"body\":\"{}\",\r\n                  \"latency\":0,\r\n                  \"statusCode\":200,\r\n                  \"label\":\"\",\r\n                  \"headers\":[\r\n                     \r\n                  ],\r\n                  \"filePath\":\"\",\r\n                  \"sendFileAsBody\":false,\r\n                  \"rules\":[\r\n                     \r\n                  ],\r\n                  \"rulesOperator\":\"OR\",\r\n                  \"disableTemplating\":false,\r\n                  \"fallbackTo404\":false\r\n               }\r\n            ],\r\n            \"enabled\":true,\r\n            \"randomResponse\":false,\r\n            \"sequentialResponse\":false\r\n         }\r\n      ],\r\n      \"proxyMode\":false,\r\n      \"proxyHost\":\"\",\r\n      \"proxyRemovePrefix\":false,\r\n      \"tlsOptions\":{\r\n         \"enabled\":false,\r\n         \"type\":\"CERT\",\r\n         \"pfxPath\":\"\",\r\n         \"certPath\":\"\",\r\n         \"keyPath\":\"\",\r\n         \"caPath\":\"\",\r\n         \"passphrase\":\"\"\r\n      },\r\n      \"cors\":true,\r\n      \"headers\":[\r\n         {\r\n            \"key\":\"Content-Type\",\r\n            \"value\":\"application/json\"\r\n         }\r\n      ],\r\n      \"proxyReqHeaders\":[\r\n         {\r\n            \"key\":\"\",\r\n            \"value\":\"\"\r\n         }\r\n      ],\r\n      \"proxyResHeaders\":[\r\n         {\r\n            \"key\":\"\",\r\n            \"value\":\"\"\r\n         }\r\n      ]\r\n   }",
           "latency": 800,
           "statusCode": 200,
           "label": "",
-          "headers": [],
-          "filePath": "C:\\Users\\jefferson.almeida\\OneDrive - NTT\\Cursos\\FrontEnd\\balta.io - Criando Apps Web com Angular e UiKit\\arquivos do curso\\assets\\7181.mockoon.1.4.0.json",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
           "sendFileAsBody": true,
           "rules": [],
           "rulesOperator": "OR",
